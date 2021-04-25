@@ -1,3 +1,16 @@
+"""
+Author : Revanth Sai Nandamuri
+GitHUB : https://github.com/RevanthNandamuri1341b0
+Date of update : 25 April 2021
+Time of update : 17:03
+Project name : Cell Compete
+Domain : Competitive Programming in Python
+Description : There is a colony of 8 cells arranged in a straight line where each day every cell competes with its adjacent cells(neighbor). Each day, for each cell, if its neighbors are both active or both inactive, the cell becomes inactive the next day,. otherwise it becomes active the next day.
+File ID : 452227
+Modified by : #your name#
+"""
+
+
 def cell_compete(states, days):
     def new_state(in_states):
         new_state = []
