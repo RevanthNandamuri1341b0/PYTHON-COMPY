@@ -1,0 +1,7 @@
+arr = list(map(int, input("Input Array : ").strip().split()))
+min = int(input("input nth min value : "))
+max = int(input("input nth max value : "))
+arr.sort()
+print(arr)
+print(f"Min = {arr[min-1]}")
+print(f"Max = {arr[len(arr)-max]}")

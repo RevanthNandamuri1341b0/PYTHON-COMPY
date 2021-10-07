@@ -28,12 +28,14 @@ def unique_count(arr, unique_arr):
             if(i == j):
                 count += 1
         str = i, ' = ', count
-        count_arr.append(str)
-    print(count_arr)
+        # count_arr.append(str)
+        count_arr.append(count)
+    # print(count_arr)
+    return count_arr
 
 
 arr = [1, 2, 3, 54, 564, 6, 3432, 561, 5, 47654, 2314, 1,
        1, 1, 1, 1, 21, 3, 3, 3, 3, 4, 4, 55, 654, 3, 3, 33, 4]
 print(arr)
 unique_arr = unique(arr)
-unique_count(arr, unique_arr)
+unique_count_arr = unique_count(arr, unique_arr)

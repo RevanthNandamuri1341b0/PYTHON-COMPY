@@ -13,6 +13,7 @@
 *File ID : 799173
 *Modified by : #your name#
 """
+
 def amazon_unique(n,arr):
     a_list = list(range(1, n+1))
     print(a_list)

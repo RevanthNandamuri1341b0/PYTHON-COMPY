@@ -22,8 +22,9 @@ def fB(n):
             op.append("Buzz")
         else:
             op.append(str(i))
-    return op
+    for i in op:
+        print(i)
 
 
 num = int(input("Enter a number : "))
-print(fB(num))
+fB(num)

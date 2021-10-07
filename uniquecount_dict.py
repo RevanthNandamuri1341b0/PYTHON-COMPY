@@ -36,3 +36,4 @@ arr = [1, 2, 3, 4, 5, 6, 6, 6, 65, 6, 6, 5, 1,
 print("The array is ", arr)
 print("The unique elements are ",  unique(arr))
 print("The Count of the elements are ", unique_count(arr,  unique(arr)))
+
