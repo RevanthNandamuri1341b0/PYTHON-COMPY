@@ -8,6 +8,6 @@ x4, y4 = input("X4 ,Y4 = ")
 print("Quardinates of second rectangle: ")
 print(f"({x3},{y3}),({x4},{y4}),({x3},{y4}),({x4},{y3})")
 
-if(x1<x3<x2):
-    if(y1<y3<y2):
-        
+if(x1 < x3 < x2):
+    if(y1 < y3 < y2):
+        pass
